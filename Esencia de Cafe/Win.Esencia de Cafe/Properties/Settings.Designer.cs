@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace La_esencia_de_cafe.Properties
+namespace Win.Esencia_de_Cafe.Properties
 {
 
 

@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace La_esencia_de_cafe
+namespace Win.Esencia_de_Cafe
 {
-    public partial class Form1 : Form
+    public partial class ReporteClientes : Form
     {
-        public Form1()
+        public ReporteClientes()
         {
             InitializeComponent();
         }

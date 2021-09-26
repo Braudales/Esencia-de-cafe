@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace La_esencia_de_cafe
+namespace Win.Esencia_de_Cafe
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace La_esencia_de_cafe
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new FormMenu());
         }
     }
 }
