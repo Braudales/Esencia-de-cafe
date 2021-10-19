@@ -10,7 +10,7 @@ namespace BL.Esencia_de_cafe
     {
         public bool Autorizar(String usuario, String contrasena)
         {
-            if (usuario == "admin1" && contrasena == "1234" )
+            if (usuario == "admin1" && contrasena == "1234")
             {
                 return true;
             }
