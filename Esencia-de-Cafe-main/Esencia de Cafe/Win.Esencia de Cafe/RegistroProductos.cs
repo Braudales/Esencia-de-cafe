@@ -40,7 +40,7 @@ namespace Win.Esencia_de_Cafe
             {
                 productoBindingSource.ResetBindings(false);
                 DesabilitarHabilitarBonotes(true);
-                MessageBox.Show("Producot Guardado ");
+                MessageBox.Show("Producto Guardado ");
             }
             else
             {
