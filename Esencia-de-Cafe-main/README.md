@@ -1,2 +1,0 @@
-# Esencia-de-Cafe
-Proyecto
