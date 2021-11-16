@@ -1,6 +1,6 @@
 ﻿namespace Win.Esencia_de_Cafe
 {
-    partial class FormReportesProducto
+    partial class FormReporteFacturas
     {
         /// <summary>
         /// Required designer variable.
@@ -37,23 +37,24 @@
             this.crystalReportViewer1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.crystalReportViewer1.Cursor = System.Windows.Forms.Cursors.Default;
             this.crystalReportViewer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.crystalReportViewer1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.crystalReportViewer1.Location = new System.Drawing.Point(0, 0);
             this.crystalReportViewer1.Name = "crystalReportViewer1";
             this.crystalReportViewer1.ShowGroupTreeButton = false;
-            this.crystalReportViewer1.Size = new System.Drawing.Size(875, 379);
+            this.crystalReportViewer1.Size = new System.Drawing.Size(865, 453);
             this.crystalReportViewer1.TabIndex = 0;
             this.crystalReportViewer1.ToolPanelView = CrystalDecisions.Windows.Forms.ToolPanelViewType.None;
             this.crystalReportViewer1.Load += new System.EventHandler(this.crystalReportViewer1_Load);
             // 
-            // FormReportesProducto
+            // FormReporteFacturas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(875, 379);
+            this.ClientSize = new System.Drawing.Size(865, 453);
             this.Controls.Add(this.crystalReportViewer1);
-            this.Name = "FormReportesProducto";
-            this.Text = "Reporte de Productos";
-            this.Load += new System.EventHandler(this.FormReportesFacturas_Load);
+            this.Name = "FormReporteFacturas";
+            this.Text = "Reporte de Facturas";
+            this.Load += new System.EventHandler(this.FormReporteFacturas_Load);
             this.ResumeLayout(false);
 
         }
