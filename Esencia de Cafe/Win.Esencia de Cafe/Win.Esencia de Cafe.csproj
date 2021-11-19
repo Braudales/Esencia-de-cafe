@@ -156,6 +156,7 @@
     <Compile Include="ReporteProductos.Designer.cs">
       <DependentUpon>ReporteProductos.cs</DependentUpon>
     </Compile>
+    <Compile Include="Utilidades.cs" />
     <EmbeddedResource Include="DetalledeReportesFacturas.rpt">
       <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
       <LastGenOutput>DetalledeReportesFacturas.cs</LastGenOutput>
