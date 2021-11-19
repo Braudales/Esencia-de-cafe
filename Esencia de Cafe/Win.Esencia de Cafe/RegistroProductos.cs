@@ -197,5 +197,10 @@ namespace Win.Esencia_de_Cafe
                 productoBindingSource.DataSource = _productos.ObtenerProductos(buscar);
             } 
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -86,9 +86,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Win.Esencia_de_Cafe.Properties.Resources.Como_iniciar_sesion_en_Facebook_Messenger1;
-            this.pictureBox1.Location = new System.Drawing.Point(12, 37);
+            this.pictureBox1.Location = new System.Drawing.Point(12, 36);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(134, 138);
+            this.pictureBox1.Size = new System.Drawing.Size(147, 139);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -130,6 +130,7 @@
             this.Name = "FormLogin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Inicio de Sesion";
+            this.Load += new System.EventHandler(this.FormLogin_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

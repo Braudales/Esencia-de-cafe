@@ -101,5 +101,10 @@ namespace Win.Esencia_de_Cafe
                 login();
             }
         }
+
+        private void FormLogin_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
