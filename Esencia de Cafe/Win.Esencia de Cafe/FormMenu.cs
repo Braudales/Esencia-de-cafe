@@ -32,6 +32,12 @@ namespace Win.Esencia_de_Cafe
             FormLogin.ShowDialog();
 
             toolStripStatusLabel1.Text = "Usuario: "+ Utilidades.nombreusuario;
+
+            if (Utilidades.nombreusuario == "admin2")
+            {
+                reportesToolStripMenuItem.Visible = false;
+               
+            }
         }
 
         private void registroDeClientesToolStripMenuItem_Click(object sender, EventArgs e)
@@ -100,6 +106,11 @@ namespace Win.Esencia_de_Cafe
         private void toolStripStatusLabel1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void salirToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
